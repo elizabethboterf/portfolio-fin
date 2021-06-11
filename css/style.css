@@ -1,0 +1,105 @@
+
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #CBCBD4;
+    margin: 0px ;
+    height: 80px;
+
+}
+/*text in header*/
+h1{
+    padding: 10px 40px 50px 0px;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    color: #05668D;
+    float:left;
+    margin-left: 20px
+}
+/*locating the nav links*/
+nav{
+    border: none;
+    padding: 25px;
+    margin: 0px 0px 0px  0px;
+    width: 50%;
+    float: right;
+    color: #05668D;
+}
+/*this is to prevent the header from disapperaring*/
+header:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+/* get rid of bullet points*/
+nav ul{
+    list-style: none;
+}
+/*list nav links horizontally*/ 
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    float: right;
+}
+/*cirlce image*/
+.img-me{
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    right: 200px;
+}
+/*. attempting to use a psuedo element
+hi:: before {
+    content:'HI!';
+    font-size: 72px;
+    font-family: 'Rockwell', 'Impact', Tahoma;
+    
+}*/
+
+/*intro text*/
+.hi{
+     text-align: right;
+     font-size: 40px;
+     margin-right: 70px; 
+     margin-left: 0px;
+     margin-top: 40px;
+     margin-bottom: 40px;
+}
+
+
+
+h2{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    color: #05668D;
+    margin: 10px;
+}
+h3{
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    color: #05668D;
+    margin: 10px;
+}
+
+p, ul, ol{
+    font-size:14px;
+    font-family: 'Arial Rounded MT Bold', Arial, 'Lucinda Bright';
+    color: #4B244A;
+    margin: 10px;
+}
+/*to make to the footer colored*/
+p.copy{
+    text-align: center;
+    color: #05668D;
+    background-color: #CBCBD4;
+}
+
+a:link{color: #05668D;}
+a:visited{color: black;}
+a:active{color:lightseagreen;}
+a:hover{color:lightgreen;}
